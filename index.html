@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tetra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="300" height="600"></canvas>
+        <div id="ui-overlay">
+            <div id="score-board">
+                <div class="label">SCORE</div>
+                <div id="score">0</div>
+            </div>
+            <div id="level-board">
+                <div class="label">LEVEL</div>
+                <div id="level">1</div>
+            </div>
+            <div id="next-piece-box">
+                <div class="label">NEXT</div>
+                <canvas id="next-canvas" width="120" height="120"></canvas>
+            </div>
+        </div>
+        <div id="glitch-overlay" class="hidden">WARNING: GLITCH DETECTED</div>
+        <div id="game-over-overlay" class="hidden">
+            <h1>GAME OVER</h1>
+            <p>Score: <span id="final-score">0</span></p>
+            <p>Press SPACE to Restart</p>
+        </div>
+        <div id="title-screen-overlay">
+            <h1>NEON TETRA</h1>
+            <p>Press SPACE to Start</p>
+        </div>
+    </div>
+    <script src="js/tetrominoes.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
