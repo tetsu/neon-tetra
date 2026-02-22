@@ -1,5 +1,10 @@
 # Neon Tetra
 
+![Live Demo](https://img.shields.io/badge/Play-Live_Demo-brightgreen?style=for-the-badge&logo=github)
+**Play the game here:** [https://tetsu.github.io/neon-tetra](https://tetsu.github.io/neon-tetra)
+
+[GitHub Repository](https://github.com/tetsu/neon-tetra)
+
 A high-performance Tetris clone built with HTML5 Canvas and Vanilla JavaScript.
 
 ## Features
@@ -23,4 +28,18 @@ A high-performance Tetris clone built with HTML5 Canvas and Vanilla JavaScript.
 
 This game is built with pure Vanilla JavaScript, HTML, and CSS. **No server is required!** 
 
-Simply open the `index.html` file directly in any modern web browser (e.g., by double-clicking the file or dragging it into your browser window) to play.
+Simply open the `index.html` file directly in any modern web browser to play.
+
+## How to Host on GitHub
+
+Because this game relies purely on front-end code (HTML/JS/CSS), it can be hosted for free directly on GitHub using **GitHub Pages**!
+
+To enable it:
+1. Go to your repository on GitHub.
+2. Click on the **Settings** tab.
+3. On the left sidebar, click on **Pages**.
+4. Under the "Build and deployment" section, find "Source" and select **Deploy from a branch**.
+5. Under "Branch", select your main branch (e.g., `main` or `master`) and keep the folder as `/ (root)`.
+6. Click **Save**.
+
+After a minute or two, GitHub will provide you with a live URL (e.g., `https://yourusername.github.io/neon-tetra`) where anyone can play your game!
